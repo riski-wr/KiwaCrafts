@@ -41,3 +41,4 @@ C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\
 C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\KiwaCrafts.WebSite.RazorComponent.output.cache
 C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\RazorDeclaration\KiwaCrafts.WebSite.dll
 C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\Razor\Components\ProductList.razor.g.cs
+C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\KiwaCrafts.WebSite.csproj.AssemblyReference.cache

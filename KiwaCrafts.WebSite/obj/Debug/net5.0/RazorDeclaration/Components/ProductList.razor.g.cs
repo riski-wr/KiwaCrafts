@@ -41,7 +41,7 @@ using KiwaCrafts.WebSite.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 50 "C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\Components\ProductList.razor"
+#line 75 "C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\Components\ProductList.razor"
        
     Product selectedProduct;
     string selectedProductId;
@@ -50,8 +50,38 @@ using KiwaCrafts.WebSite.Services;
     {
         selectedProductId = productId;
         selectedProduct = ProductService.GetProducts().First(x => x.Id == productId);
+        GetCurrentRating();
+    }
+
+    int currentRating = 0;
+    int voteCount = 0;
+    string voteLabel;
+
+    void GetCurrentRating()
+    {
+        if (selectedProduct.Ratings == null)
+        {
+            currentRating = 0;
+            voteCount = 0;
+        }
+        else
+        {
+            voteCount = selectedProduct.Ratings.Count();
+            voteLabel = voteCount > 1 ? "Votes" : "Vote";
+            currentRating = selectedProduct.Ratings.Sum() / voteCount;
+        }
+
+        System.Console.WriteLine($"Current rating for {selectedProduct.Id}: {currentRating}");
+    }
+
+    void SubmitRating(int rating)
+    {
+        System.Console.WriteLine($"Current rating for {selectedProduct.Id}: {rating}");
+        ProductService.AddRating(selectedProductId, rating);
+        SelectProduct(selectedProductId);
 
     }
+
 
 #line default
 #line hidden
