@@ -9,7 +9,6 @@ C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\bin\Debug\net5.0\
 C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\bin\Debug\net5.0\KiwaCrafts.WebSite.pdb
 C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\bin\Debug\net5.0\KiwaCrafts.WebSite.Views.dll
 C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\bin\Debug\net5.0\KiwaCrafts.WebSite.Views.pdb
-C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\KiwaCrafts.WebSite.csproj.AssemblyReference.cache
 C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\KiwaCrafts.WebSite.GeneratedMSBuildEditorConfig.editorconfig
 C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\KiwaCrafts.WebSite.AssemblyInfoInputs.cache
 C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\KiwaCrafts.WebSite.AssemblyInfo.cs
@@ -37,3 +36,8 @@ C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\
 C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\KiwaCrafts.WebSite.pdb
 C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\KiwaCrafts.WebSite.genruntimeconfig.cache
 C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\KiwaCrafts.WebSite.csproj.CopyComplete
+C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\KiwaCrafts.WebSite.RazorComponent.input.cache
+C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\RazorDeclaration\Components\ProductList.razor.g.cs
+C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\KiwaCrafts.WebSite.RazorComponent.output.cache
+C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\RazorDeclaration\KiwaCrafts.WebSite.dll
+C:\Area\Learning\Programming\ASP\KiwaCrafts\KiwaCrafts.WebSite\obj\Debug\net5.0\Razor\Components\ProductList.razor.g.cs

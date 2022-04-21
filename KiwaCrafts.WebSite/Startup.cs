@@ -30,6 +30,7 @@ namespace KiwaCrafts.WebSite
             services.AddRazorPages();
             services.AddTransient<JsonFileProductService>();
             services.AddControllers();
+            services.AddServerSideBlazor();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -57,6 +58,7 @@ namespace KiwaCrafts.WebSite
             {
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
+                endpoints.MapBlazorHub();
                 //endpoints.MapGet("/products", (context) =>
                 //{
                 //    var products = app.ApplicationServices.GetService<JsonFileProductService>().GetProducts();
